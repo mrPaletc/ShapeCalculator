@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeCalculator", "ShapeCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeCalculatorTests", "ShapeCalculatorTests\ShapeCalculatorTests.csproj", "{CD5EC3A1-F9D9-4252-9222-4CC7079006CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{BD99F580-85D4-4EB2-ACFF-84F41048E761}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\CreateTables.sql = ..\..\..\Desktop\CreateTables.sql
+		..\..\..\Desktop\GetDataFromTables.sql = ..\..\..\Desktop\GetDataFromTables.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
